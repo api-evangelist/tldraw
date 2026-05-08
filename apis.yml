@@ -1,0 +1,29 @@
+aid: tldraw
+url: https://raw.githubusercontent.com/api-evangelist/tldraw/refs/heads/main/apis.yml
+name: tldraw
+x-type: company
+description: >-
+  tldraw is an open-source infinite-canvas whiteboard SDK. Powers AI tools (Make-Real), embeddable diagrams, and collaborative drawing in any web app.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Collaboration
+  - Whiteboard
+  - Drawing
+  - SDK
+  - Open Source
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.tldraw.com/
+  - type: Plans
+    url: plans/tldraw-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/tldraw-rate-limits.yml
+  - type: FinOps
+    url: finops/tldraw-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
