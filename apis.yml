@@ -1,23 +1,67 @@
 aid: tldraw
 url: https://raw.githubusercontent.com/api-evangelist/tldraw/refs/heads/main/apis.yml
 name: tldraw
-x-type: company
+x-type: opensource
 description: >-
-  tldraw is an open-source infinite-canvas whiteboard SDK. Powers AI tools (Make-Real), embeddable diagrams, and collaborative drawing in any web app.
+  tldraw is an infinite-canvas SDK for building whiteboard and canvas applications. The
+  primary distribution is the `tldraw` React component package; tldraw also offers a
+  multiplayer sync server. License is the tldraw SDK License (free with watermark for
+  small businesses; paid commercial license to remove watermark).
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Collaboration
   - Whiteboard
-  - Drawing
   - SDK
-  - Open Source
+  - Canvas
+  - React
+  - Multiplayer
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: tldraw:tldraw-sdk
+    name: tldraw React SDK
+    humanURL: https://tldraw.dev/
+    baseURL: npm package (no network endpoint)
+    tags:
+      - SDK
+      - React
+      - Library
+    description: >-
+      The tldraw SDK is a React component library for embedding an infinite canvas with
+      drawing tools, shapes, text, arrows, selection, accessibility, and theming. Used
+      in production by Google, Shopify, ClickUp, Autodesk, and Runway.
+    properties:
+      - type: Documentation
+        url: https://tldraw.dev/
+      - type: SourceCode
+        url: https://github.com/tldraw/tldraw
+      - type: NPM
+        url: https://www.npmjs.com/package/tldraw
+  - aid: tldraw:tldraw-sync
+    name: tldraw Sync (Multiplayer)
+    humanURL: https://tldraw.dev/sync
+    baseURL: customer-hosted sync server
+    tags:
+      - Multiplayer
+      - WebSocket
+      - Sync
+    description: >-
+      tldraw provides a multiplayer sync layer (WebSocket-based) that customers can
+      self-host or use through tldraw's offerings. Live cursors, real-time updates,
+      persistence.
+    properties:
+      - type: Documentation
+        url: https://tldraw.dev/sync
 common:
   - type: Website
     url: https://www.tldraw.com/
+  - type: Portal
+    url: https://tldraw.dev/
+  - type: SourceCode
+    url: https://github.com/tldraw/tldraw
+  - type: License
+    title: tldraw SDK License
+    url: https://github.com/tldraw/tldraw/blob/main/LICENSE.md
   - type: Plans
     url: plans/tldraw-plans-pricing.yml
   - type: RateLimits
