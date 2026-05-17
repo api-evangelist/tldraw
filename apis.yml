@@ -1,7 +1,7 @@
 aid: tldraw
 url: https://raw.githubusercontent.com/api-evangelist/tldraw/refs/heads/main/apis.yml
 name: tldraw
-x-type: opensource
+kind: opensource
 description: >-
   tldraw is an infinite-canvas SDK for building whiteboard and canvas applications. The
   primary distribution is the `tldraw` React component package; tldraw also offers a
