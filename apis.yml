@@ -53,6 +53,8 @@ apis:
       - type: Documentation
         url: https://tldraw.dev/sync
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/tldraw
   - type: Website
     url: https://www.tldraw.com/
   - type: Portal
