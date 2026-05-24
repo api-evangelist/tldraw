@@ -70,6 +70,8 @@ common:
     url: rate-limits/tldraw-rate-limits.yml
   - type: FinOps
     url: finops/tldraw-finops.yml
+  - type: LLMsTxt
+    url: https://tldraw.dev/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
