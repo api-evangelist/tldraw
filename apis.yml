@@ -7,7 +7,7 @@ description: >-
   primary distribution is the `tldraw` React component package; tldraw also offers a
   multiplayer sync server. License is the tldraw SDK License (free with watermark for
   small businesses; paid commercial license to remove watermark).
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Whiteboard
   - SDK
