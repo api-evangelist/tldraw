@@ -1,0 +1,34 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.tldraw.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 28 16:57:02 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+- host: tldraw.dev
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  3 03:16:21 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+domains:
+- domain: tldraw.com
+  dnssec: false
+  caa:
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  - 0 issue "sectigo.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+- domain: tldraw.dev
+  dnssec: false
+  caa:
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  - 0 issue "sectigo.com"
+  spf: false
+  dmarc: false

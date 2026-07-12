@@ -53,6 +53,8 @@ apis:
       - type: Documentation
         url: https://tldraw.dev/sync
 common:
+  - type: DomainSecurity
+    url: security/tldraw-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/tldraw
   - type: Website
@@ -72,6 +74,8 @@ common:
     url: finops/tldraw-finops.yml
   - type: LlmsText
     url: https://tldraw.dev/llms.txt
+  - type: Blog
+    url: https://tldraw.substack.com/feed
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
