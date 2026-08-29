@@ -7,6 +7,18 @@ description: >-
   primary distribution is the `tldraw` React component package; tldraw also offers a
   multiplayer sync server. License is the tldraw SDK License (free with watermark for
   small businesses; paid commercial license to remove watermark).
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -65,6 +77,16 @@ apis:
       - type: Documentation
         url: https://tldraw.dev/sync
 common:
+  - type: IssueTracker
+    url: https://github.com/tldraw/tldraw/issues
+  - type: Releases
+    url: https://github.com/tldraw/tldraw/releases
+  - type: SecurityPolicy
+    url: https://github.com/tldraw/tldraw/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/tldraw/tldraw/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/tldraw/tldraw/blob/main/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/tldraw-domain-security.yml
   - type: LinkedIn
