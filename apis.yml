@@ -9,6 +9,10 @@ description: >-
   small businesses; paid commercial license to remove watermark).
 deliveryModel:
   model: unknown
+  license_evidence:
+    repo: tldraw/tldraw
+    spdx: NOASSERTION
+    stars: 50561
   open_source: unknown
   commercial: true
   callable_host: false
@@ -17,7 +21,7 @@ deliveryModel:
   source:
   - pricing
   - repository-unlicensed
-  generated: '2026-08-28'
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
